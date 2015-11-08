@@ -1,0 +1,27 @@
+WEBSITES:
+  - URL: http://www.lynda.com/
+    ACTIONS:
+      - action:
+        action_type: click_element
+        identifier:
+          id: login-modal
+      - action:
+        action_type: switch_to_iframe
+        identifier:
+          id: fancybox-frame
+      - action:
+        action_type: input_variable
+        identifier:
+          id: usernameInput
+        variable: user_name
+      - action:
+        action_type: input_variable
+        identifier:
+          id: passwordInput
+        variable: password
+      - action:
+        action_type: click_element
+        identifier:
+          id: lnk_login
+      - action:
+        action_type: done
