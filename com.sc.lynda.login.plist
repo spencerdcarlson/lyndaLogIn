@@ -12,7 +12,7 @@
  	<string>com.sc.lynda.login</string>
 
     <key>Program</key>
-    <string>/Users/sc/projects/ruby/logIn/log_in.rb</string>
+    <string>/Users/sc/projects/ruby/logIn/bin/lynda_logon.rb</string>
 
     <key>Nice</key>
     <integer>1</integer>
